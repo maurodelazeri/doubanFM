@@ -13,6 +13,12 @@
 		B15087981A64066F0083FA9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15087971A64066F0083FA9C /* Images.xcassets */; };
 		B150879B1A64066F0083FA9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B15087991A64066F0083FA9C /* LaunchScreen.xib */; };
 		B15087A71A64066F0083FA9C /* doubanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15087A61A64066F0083FA9C /* doubanTests.swift */; };
+		B15087B11A6409D60083FA9C /* ChanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15087B01A6409D60083FA9C /* ChanelViewController.swift */; };
+		B15087B31A640E870083FA9C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15087B21A640E870083FA9C /* File.swift */; };
+		B1CFEA7B1A655DD100D4DA5E /* btnChannel.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CFEA771A655DD100D4DA5E /* btnChannel.png */; };
+		B1CFEA7C1A655DD100D4DA5E /* btnPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CFEA781A655DD100D4DA5E /* btnPlay.png */; };
+		B1CFEA7D1A655DD100D4DA5E /* detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1CFEA791A655DD100D4DA5E /* detail.jpg */; };
+		B1CFEA7E1A655DD100D4DA5E /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1CFEA7A1A655DD100D4DA5E /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		B15087A01A64066F0083FA9C /* doubanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15087A51A64066F0083FA9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15087A61A64066F0083FA9C /* doubanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doubanTests.swift; sourceTree = "<group>"; };
+		B15087B01A6409D60083FA9C /* ChanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChanelViewController.swift; sourceTree = "<group>"; };
+		B15087B21A640E870083FA9C /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		B1CFEA771A655DD100D4DA5E /* btnChannel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnChannel.png; sourceTree = "<group>"; };
+		B1CFEA781A655DD100D4DA5E /* btnPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnPlay.png; sourceTree = "<group>"; };
+		B1CFEA791A655DD100D4DA5E /* detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detail.jpg; sourceTree = "<group>"; };
+		B1CFEA7A1A655DD100D4DA5E /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,9 @@
 				B15087901A64066F0083FA9C /* AppDelegate.swift */,
 				B15087921A64066F0083FA9C /* ViewController.swift */,
 				B15087941A64066F0083FA9C /* Main.storyboard */,
+				B15087B01A6409D60083FA9C /* ChanelViewController.swift */,
+				B15087B21A640E870083FA9C /* File.swift */,
+				B1CFEA761A655DD100D4DA5E /* images */,
 				B15087971A64066F0083FA9C /* Images.xcassets */,
 				B15087991A64066F0083FA9C /* LaunchScreen.xib */,
 				B150878E1A64066F0083FA9C /* Supporting Files */,
@@ -110,6 +125,17 @@
 				B15087A51A64066F0083FA9C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1CFEA761A655DD100D4DA5E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B1CFEA771A655DD100D4DA5E /* btnChannel.png */,
+				B1CFEA781A655DD100D4DA5E /* btnPlay.png */,
+				B1CFEA791A655DD100D4DA5E /* detail.jpg */,
+				B1CFEA7A1A655DD100D4DA5E /* logo.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B15087961A64066F0083FA9C /* Main.storyboard in Resources */,
+				B1CFEA7C1A655DD100D4DA5E /* btnPlay.png in Resources */,
 				B150879B1A64066F0083FA9C /* LaunchScreen.xib in Resources */,
+				B1CFEA7B1A655DD100D4DA5E /* btnChannel.png in Resources */,
+				B1CFEA7E1A655DD100D4DA5E /* logo.jpg in Resources */,
+				B1CFEA7D1A655DD100D4DA5E /* detail.jpg in Resources */,
 				B15087981A64066F0083FA9C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B15087931A64066F0083FA9C /* ViewController.swift in Sources */,
+				B15087B31A640E870083FA9C /* File.swift in Sources */,
+				B15087B11A6409D60083FA9C /* ChanelViewController.swift in Sources */,
 				B15087911A64066F0083FA9C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +437,7 @@
 				B15087AC1A64066F0083FA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B15087AD1A64066F0083FA9C /* Build configuration list for PBXNativeTarget "doubanTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				B15087AF1A64066F0083FA9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
