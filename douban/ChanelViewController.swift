@@ -67,6 +67,8 @@ class ChanelViewController: UIViewController, UITableViewDataSource, UITableView
     
     func useContentData(data: NSDictionary) {
         chanels = data["channels"] as NSArray
-        channelTV.reloadData()
+        dispatch_async(dispatch_get_main_queue()) {
+            self.channelTV.reloadData()
+        }
     }
 }

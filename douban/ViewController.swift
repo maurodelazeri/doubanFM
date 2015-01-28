@@ -156,7 +156,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func useContentData(data: NSDictionary) {
         songs = data["song"] as NSArray
-        songsTableView.reloadData()
+        dispatch_async(dispatch_get_main_queue()) {
+            self.songsTableView.reloadData()
+        }
+        
         let firstSong = songs[0] as NSDictionary
         playSong(firstSong["url"] as String)
         setImage(firstSong["picture"] as String)
